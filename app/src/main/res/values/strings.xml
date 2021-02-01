@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ProgettoFinale</string>
+    <string name="registrazione"><u>Nuovo utente? Registrati!</u></string>
+    <string name="modificaPassword"><u>Modifica Password</u></string>
+</resources>

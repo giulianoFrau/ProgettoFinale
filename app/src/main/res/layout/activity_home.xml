@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nero"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10pt"
+        android:layout_marginRight="10pt"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="35pt" />
+
+        <TextView
+            android:id="@+id/benvenuto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="@font/retroica"
+            android:text="Benvenuto username"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="35dp" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="@font/retroica"
+            android:text="Username : marco"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="14dp" />
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="@font/retroica"
+            android:text="Password : 12345"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="14dp" />
+
+        <TextView
+            android:id="@+id/citta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="@font/retroica"
+            android:text="Città : bitti"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="14dp" />
+
+        <TextView
+            android:id="@+id/data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="@font/retroica"
+            android:text="Data di nascita : 03/10/1992"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="35dp" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bottone_tondo"
+            android:fontFamily="@font/retroica"
+            android:text="logout"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            app:backgroundTint="@color/bluChiaro" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/cambiopassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autoLink="all"
+            android:fontFamily="@font/retroica"
+            android:text="@string/modificaPassword"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
